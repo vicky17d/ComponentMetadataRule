@@ -1,0 +1,62 @@
+.
+├── build
+│   ├── classes
+│   │   └── java
+│   │       └── main
+│   │           └── org
+│   │               └── example
+│   │                   └── Main.class
+│   ├── generated
+│   │   └── sources
+│   │       ├── annotationProcessor
+│   │       │   └── java
+│   │       │       └── main
+│   │       └── headers
+│   │           └── java
+│   │               └── main
+│   ├── libs
+│   │   └── ComponentMetadataRule.jar
+│   ├── pluginDescriptors
+│   ├── pluginUnderTestMetadata
+│   │   └── plugin-under-test-metadata.properties
+│   ├── reports
+│   │   └── plugin-development
+│   │       └── validation-report.json
+│   └── tmp
+│       ├── compileJava
+│       │   └── previous-compilation-data.bin
+│       └── jar
+│           └── MANIFEST.MF
+├── build.gradle.kts
+├── buildSrc
+│   ├── build
+│   │   ├── libs
+│   │   │   └── buildSrc-1.0-SNAPSHOT.jar
+│   │   └── tmp
+│   │       └── jar
+│   │           └── MANIFEST.MF
+│   ├── build.gradle.kts
+│   └── src
+│       └── main
+│           └── kotlin
+│               └── ExposeRuntimeDepsRule.kt
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle.kts
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── org
+│   │   │       └── example
+│   │   │           └── Main.java
+│   │   └── resources
+│   └── test
+│       ├── java
+│       └── resources
+└── tree.txt
+
+42 directories, 18 files
